@@ -6,6 +6,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.*;
 
+/**
+ *添加注释测试提交
+ */
 @Configuration
 //@EnableWebMvc //加上该注解后，Springboot对SpringMVC自动配置失效了
 public class MyWebMvcConfig implements WebMvcConfigurer {
